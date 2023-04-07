@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+    @apply max-w-6xl mx-auto;
+}
+.btn{
+    @apply px-4 py-3 text-gray-100 bg-gray-700 hover:bg-gray-900 transition-all font-semibold rounded-md shadow-lg 
+}
