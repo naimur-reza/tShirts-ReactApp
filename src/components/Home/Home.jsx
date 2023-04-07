@@ -13,9 +13,9 @@ const Home = () => {
       if (exist){
         Swal.fire({
             title: 'Error!',
-            text: 'Do you want to continue',
+            text: 'Already Added',
             icon: 'error',
-            confirmButtonText: 'Cool'
+            confirmButtonText: 'Buy More'
           })
           return;
       }

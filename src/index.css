@@ -8,3 +8,10 @@
 .btn{
     @apply px-4 py-3 text-gray-100 bg-gray-700 hover:bg-gray-900 transition-all font-semibold rounded-md shadow-lg 
 }
+
+.isLow{
+    @apply bg-red-500 p-2 text-lg font-semibold  rounded-md
+}
+.isHigh{
+    @apply bg-green-500 p-2  text-lg font-semibold rounded-md
+}
